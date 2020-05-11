@@ -42,6 +42,7 @@ body {
     background-color: blue ;
     position: sticky;
     top: -2px;
+
 }
 
 
@@ -59,4 +60,40 @@ body {
 
 .active {
     background-color: #4CAF50;
+}
+
+aside {
+
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.main{
+    padding: 16px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.27);
+    border-radius: 5px;
+}
+
+.left-content {
+    text-align: center;
+    width: 70%;
+    height: 100%;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kiri container */
+    float: left;
+}
+
+.right-content {
+    text-align: center;
+    width: 30%;
+    height: 100%;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+    float: right;
 }

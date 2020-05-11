@@ -5,27 +5,55 @@ body {
     min-width: 900px;
     padding: 0;
 }
-ul {
+
+.kiri {
+    float: left;
+    margin-left: 100px;
+}
+.kanan {
+    margin-top: 5px;
+    float: right;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.putih{
+    color: white;
+}
+.bold{
+    font-weight: bold;
+}
+.nav {
+    z-index: 10;
     list-style-type: none;
     margin: 0;
+    margin-top: -50px;
+    height: 56px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: blue ;
+    position: sticky;
+    top: -2px;
 }
 
-li {
-    float: left;
-}
 
-li a {
+.aa {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.aa:hover {
     background-color: #111;
 }
 

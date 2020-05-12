@@ -97,3 +97,12 @@ aside {
     /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
     float: right;
 }
+main{
+    padding: 26px;
+}
+footer{
+    width: 70%;
+    height: 100%;
+    float: bottom;
+
+}
